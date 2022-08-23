@@ -1,0 +1,71 @@
+---
+title: "#packages and functions used#
+output: html_notebook
+---
+
+$`c("package:ggspatial", "package:ggplot2")`
+[1] "aes"      "coord_sf" "geom_sf"  "ggplot"  
+
+$`c("package:plyr", "package:dplyr")`
+[1] "arrange"
+
+$`c("package:sp", "package:base")`
+[1] "merge"
+
+$`c("package:srvyr", "package:dplyr", "package:stats")`
+[1] "filter"
+
+$`c("package:srvyr", "package:dplyr")`
+[1] "group_by" "n"       
+
+$`c("package:srvyr", "package:plyr", "package:dplyr")`
+[1] "mutate"    "summarise" "summarize"
+
+$`package:base`
+[1] "as.data.frame.matrix" "as.factor"            "as.vector"           
+[4] "c"                    "cbind"                "data.frame"          
+[7] "ifelse"               "is.na"                "length"              
+[10] "library"              "match"                "mean"                
+[13] "names"                "nrow"                 "paste"               
+[16] "rbind"                "readRDS"              "subset"              
+[19] "sum"                  "table"                "unique"              
+[22] "which"               
+
+$`package:dplyr`
+[1] "first"                 "group_by_drop_default" "grouped_df"           
+[4] "left_join"            
+
+$`package:forcats`
+[1] "fct_relevel"
+
+$`package:ggplot2`
+[1] "annotate"             "geom_point"           "labs"                
+[4] "scale_color_gradient" "scale_color_manual"   "scale_fill_gradient" 
+[7] "scale_fill_manual"    "theme_void"           "unit"                
+
+$`package:ggspatial`
+[1] "annotation_north_arrow" "annotation_scale"      
+
+$`package:rdhs`
+[1] "dhs_data"               "dhs_datasets"           "dhs_surveys"           
+[4] "download_boundaries"    "extract_dhs"            "get_datasets"          
+[7] "rbind_labelled"         "search_variable_labels" "search_variables"      
+[10] "set_rdhs_config"       
+
+$`package:rnaturalearth`
+[1] "ne_countries" "ne_download" 
+
+$`package:scales`
+[1] "rescale"
+
+$`package:scatterpie`
+[1] "geom_scatterpie"
+
+$`package:srvyr`
+[1] "as_survey_design" "survey_mean"     
+
+$`package:stats`
+[1] "cor"     "na.omit"
+
+$`package:utils`
+[1] "read.csv" "View" 
